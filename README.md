@@ -8,6 +8,13 @@ Data is ingested into a PostgreSQL database using Airflow, and then visualized t
 
 ---
 
+1. Streamlit View
+   ![Retail sales](https://github.com/user-attachments/assets/6e831cfa-4f97-4788-86dd-7b6b13e479f3)
+2. DAG Vew
+   ![dag](https://github.com/user-attachments/assets/b9ebfe0f-69b2-48ef-9627-3654712aaa55)
+3. Postgres View
+   ![db](https://github.com/user-attachments/assets/1fbdb124-461a-44af-b9a4-1e8880550a06)
+
 ## 🎯 2. Objectives
 
 - Build an end-to-end ETL pipeline with modern data tools.
@@ -50,8 +57,9 @@ Data is ingested into a PostgreSQL database using Airflow, and then visualized t
 1. **Clone the repository:**
 
 ```bash
-git clone https://github.com/yourusername/retail-data-engineering-project.git
+git clone https://github.com/rulnin/retail-data-engineering-project.git
 cd retail-data-engineering-project
+```
 
 2. **Place the dataset inside the /dags/data/ folder:**
 - Download from: Retail Sales Dataset
