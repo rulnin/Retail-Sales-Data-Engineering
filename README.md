@@ -73,7 +73,7 @@ docker-compose up -d
     * Username: airflow
     * Password: airflow
 - Streamlit Dashboard: http://localhost:8501
--PostgreSQL DB: localhost:5432 (user: airflow, password: airflow)
+- PostgreSQL DB: localhost:5432 (user: airflow, password: airflow)
 
 5 **Trigger the DAG in Airflow:**
 - Open Airflow UI → Unpause retail_etl_dag → Trigger it manually
